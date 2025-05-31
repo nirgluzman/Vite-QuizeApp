@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q1",
+    "question": "What is the output of: typeof null?",
+    "score": 1,
+    "options": [
+      { "label": "null", "value": "a" },
+      { "label": "object", "value": "b" },
+      { "label": "undefined", "value": "c" },
+      { "label": "number", "value": "d" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": "q2",
+    "question": "What does `use strict` do in JavaScript?",
+    "score": 1,
+    "options": [
+      { "label": "Improves performance", "value": "a" },
+      { "label": "Changes the language syntax", "value": "b" },
+      { "label": "Prevents usage of undeclared variables", "value": "c" },
+      { "label": "Enables module mode", "value": "d" }
+    ],
+    "correctAnswers": ["c"]
+  },
+  {
+    "id": "q3",
+    "question": "What is the purpose of the `<label>` tag in HTML?",
+    "score": 1,
+    "options": [
+      { "label": "Display styled text", "value": "a" },
+      { "label": "Link text to a form element", "value": "b" },
+      { "label": "Define a script", "value": "c" },
+      { "label": "Wrap text as a heading", "value": "d" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": "q4",
+    "question": "What does `position: absolute` do in CSS?",
+    "score": 1,
+    "options": [
+      { "label": "Positions relative to the nearest positioned ancestor", "value": "a" },
+      { "label": "Positions relative to the screen", "value": "b" },
+      { "label": "Always renders above other elements", "value": "c" },
+      { "label": "Positions relative to siblings", "value": "d" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": "q5",
+    "question": "What does the `useState` function do in React?",
+    "score": 1,
+    "options": [
+      { "label": "Manages state in a component", "value": "a" },
+      { "label": "Directly updates the DOM", "value": "b" },
+      { "label": "Fetches data from the server", "value": "c" },
+      { "label": "Adds dynamic CSS", "value": "d" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": "q6",
+    "question": "What is the result of: '2' + 2?",
+    "score": 1,
+    "options": [
+      { "label": "4", "value": "a" },
+      { "label": "22", "value": "b" },
+      { "label": "NaN", "value": "c" },
+      { "label": "undefined", "value": "d" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": "q7",
+    "question": "What is the purpose of the `key` prop in React lists?",
+    "score": 1,
+    "options": [
+      { "label": "Set CSS styles", "value": "a" },
+      { "label": "Let React track which items changed", "value": "b" },
+      { "label": "Modify DOM ID", "value": "c" },
+      { "label": "Assign a unique class", "value": "d" }
+    ],
+    "correctAnswers": ["b"]
+  },
+  {
+    "id": "q8",
+    "question": "What does `event.preventDefault()` do?",
+    "score": 1,
+    "options": [
+      { "label": "Stops the browser's default behavior", "value": "a" },
+      { "label": "Stops code execution", "value": "b" },
+      { "label": "Removes the event from the DOM", "value": "c" },
+      { "label": "Stops event bubbling", "value": "d" }
+    ],
+    "correctAnswers": ["a"]
+  },
+  {
+    "id": "q9",
+    "question": "Which of the following are valid CSS display values?",
+    "score": 2,
+    "options": [
+      { "label": "block", "value": "a" },
+      { "label": "inline", "value": "b" },
+      { "label": "flex", "value": "c" },
+      { "label": "float", "value": "d" }
+    ],
+    "correctAnswers": ["a", "b", "c"]
+  },
+  {
+    "id": "q10",
+    "question": "Which of the following cause asynchronous behavior in JavaScript?",
+    "score": 2,
+    "options": [
+      { "label": "setTimeout", "value": "a" },
+      { "label": "fetch", "value": "b" },
+      { "label": "console.log", "value": "c" },
+      { "label": "await", "value": "d" }
+    ],
+    "correctAnswers": ["a", "b", "d"]
+  }
+]
